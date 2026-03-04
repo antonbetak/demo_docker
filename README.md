@@ -26,4 +26,4 @@ Crea un usuario en PostgreSQL.
 
 
 ### `GET /users`
-Muestra los usuarios guardados en PostgreSQL y devuelve el total en `count`.
+Muestra los usuarios guardados en PostgreSQL y devuelve el total en count.
