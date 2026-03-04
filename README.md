@@ -12,18 +12,18 @@ docker compose up --build
 
 
 ### `GET /`
-Endpoint de bienvenida. Muestra mensaje y lista de rutas disponibles.
+endpoint de bienvenida. Muestra mensaje y lista de rutas disponibles
 
 ### `GET /health`
-Valida que la app pueda conectarse a PostgreSQL y Redis.
-Regresa estado si si se pudo conectar o marca error
+valida que la app pueda conectarse a PostgreSQL y Redis,
+regresa estado si si se pudo conectar o marca error
 
 ### `GET /visits`
 muestra el contador de visitas al darle refresh a la página
 
 ### `POST /users`
-Crea un usuario en PostgreSQL.
+crea un usuario en PostgreSQL
 
 
 ### `GET /users`
-Muestra los usuarios guardados en PostgreSQL y devuelve el total en count.
+muestra los usuarios guardados en PostgreSQL y devuelve el total en count
